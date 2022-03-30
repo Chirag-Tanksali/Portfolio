@@ -132,20 +132,14 @@ export default function Resume(props) {
                 </div>
                 <div className="experience-description">
                     <span className="resume-description-text">
-                        - Developed an ecommerce website for client with the dashboard for
-                        managing the products, managing reviews, users, payment etc. .
-                    </span>
-                    <br />
+                    - Built a question and answer (Quora-Clone) website
+                    </span> <br></br>
                     <span className="resume-description-text">
-                        - Integrated the web app with backend services to create new user
-                        onboarding application with dynamic form content.{" "}
-                    </span>
-                    <br />
+                    - Managing the data in MongoDB Atlas Database
+                    </span><br></br>
                     <span className="resume-description-text">
-                        - I stretch my mental capacity to develope UI as per the given
-                        designs.
+                    - Used React.js , Node.js , Express.js and MongoDB ,as tech stack
                     </span>
-                    <br />
                 </div>
             </div>
         </div>,

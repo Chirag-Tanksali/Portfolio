@@ -33,7 +33,9 @@
 }
 
 .resume-description-text {
-  font-size: 12px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .resume-details-carousal {

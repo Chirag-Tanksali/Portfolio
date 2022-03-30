@@ -25,7 +25,7 @@ export default function Projects(props) {
         animateOut: "bounceOutRight",
         dots: true,
         autoplay: true,
-        smartSpeed: 400,
+        smartSpeed: 8000,
         responsive: {
             0: {
                 items: 1,
@@ -49,13 +49,14 @@ export default function Projects(props) {
                 <div className="container">
                     <div className="role">
                         <OwlCarousel className='owl-carousel' id='projects-carousel' {...options}>
-
                             <div className='col-lg-12'>
                                 <div className='project-item'>
                                     <div className='project-comment'>
-                                    <h3>Twitter Clone</h3>
+                                        <h3>Easy Shop : Ecommerce Web Application</h3>
                                         <p>
-                                        Built using Node.js,Socket.IO and MongoDB. This project is complete with Tweets,Likes,comments and retweets,Profile pages,Following and followers support,Instant messaging in real time,group chat support,Profile pictures,Cover photos and much more !
+                                            Used Redux for changing the states, Managing and Storing Database in the cloud.
+                                            Implemented functionalities like custom Admin Panel area to manage products,user and orders to update info and other
+                                            functionalities like JWT authentication,Product Search etc..
                                         </p>
                                     </div>
                                     <div className='client-info'>
@@ -66,41 +67,39 @@ export default function Projects(props) {
                             <div className='col-lg-12'>
                                 <div className='project-item'>
                                     <div className='project-comment'>
-                                    <h3>Ecommerce Mobile Application</h3>
+                                        <h3>E meet : Video and Voice call Web application</h3>
                                         <p>
-                                        Developed a E-commerce cross-platformed(iOS and Android) Mobile Application with React Native, Redux,Node,Express and MongoDB.
-                                        Admin area to manage customers,products and orders from mobile phone!
-                                        Product search,carousel and more!
+                                            Built using WebRTC,Socket.IO and Javascript.Right from the landing page where users will able to host a new meeting or will be able to join in an existing meeting by using meeting code to advanced features like creating audio and video streaming,Live Chat,Sharing screen,Recording system etc!
+                                        </p>
+                                    </div>
+                                    <div className='client-info'>
+                                        <img src="img/Projects/website.png" alt='No Internet Connection'></img>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-12'>
+                                <div className='project-item'>
+                                    <div className='project-comment'>
+                                        <h3>Personal Portfolio Website</h3>
+                                        <p>
+                                            Developed a Responsive portfolio website with email functionality using React.js,Bootstrap,rxjs and NodeJS. Implemented  Smooth Scrolling and Fade In Animation and react type effect changing different text based on timing and call to action button using Rxjs.Deployed website on Heroku Server.
+                                        </p>
+                                    </div>
+                                    <div className='client-info'>
+                                        <img src="img/Projects/website.png" alt='No Internet Connection'></img>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-12'>
+                                <div className='project-item'>
+                                    <div className='project-comment'>
+                                        <h3>Expense Tracker Mobile App</h3>
+                                        <p>
+                                        A cross-platformed (iOS and Android) Mobile Application that helps users to track and manage their total expense.Developed using React Native .Built with the purpose to learn the use of React Navigation and to implement CRUD operations using firebase (Real time Data Storage in firestore database).
                                         </p>
                                     </div>
                                     <div className='client-info'>
                                         <img src="img/Projects/app.png" alt='No Internet Connection'></img>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-12'>
-                                <div className='project-item'>
-                                    <div className='project-comment'>
-                                        <h3>Google Meet Clone</h3>
-                                        <p>
-                                        Built using WebRTC,Socket.IO and Javascript.Right from the landing page where users will able to host a new meeting or will be able to join in a existing meeting by using meeting code to advanced features like creating audio and video streaming,Live Chat,Sharing screen,Recording system etc!
-                                        </p>
-                                    </div>
-                                    <div className='client-info'>
-                                        <img src="img/Projects/website.png" alt='No Internet Connection'></img>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-12'>
-                                <div className='project-item'>
-                                    <div className='project-comment'>
-                                    <h3>Personal Portfolio Website</h3>
-                                        <p>
-                                        Developed a Responsive portfolio website with email functionality using React.js,Bootstrap,rxjs and NodeJS.Deployed website on Heroku Server.
-                                        </p>
-                                    </div>
-                                    <div className='client-info'>
-                                        <img src="img/Projects/website.png" alt='No Internet Connection'></img>
                                     </div>
                                 </div>
                             </div>

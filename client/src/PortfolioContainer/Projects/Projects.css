@@ -33,9 +33,9 @@
 }
 
 .projects-section .project-item {
-  background-color: rgb(255, 236, 236) ;
+  background-color: rgb(228, 224, 13) ;
   padding: 30px;
-  border-radius: 50px 50px 50px 0px;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .projects-section .project-item p {
