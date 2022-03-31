@@ -134,7 +134,7 @@ export default function Resume(props) {
                     <span className="resume-description-text">
                     - Built a question and answer (Quora-Clone) website
                     </span> <br></br>
-                    <span className="resume-description-text">
+                    <span className="resume-description-text" >
                     - Managing the data in MongoDB Atlas Database
                     </span><br></br>
                     <span className="resume-description-text">
